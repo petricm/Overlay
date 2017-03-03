@@ -11,5 +11,5 @@ mkdir build
 cd build
 cmake -C $ILCSOFT/ILCSoft.cmake -DCMAKE_CXX_FLAGS="-fPIC" .. && \
 export PATH=$PATH:/Package/cov-analysis-linux64/bin && \
-make VERBOSE=1 -j2 && \
+make VERBOSE=1 -j2
 #tar czvf myproject.tgz cov-int
